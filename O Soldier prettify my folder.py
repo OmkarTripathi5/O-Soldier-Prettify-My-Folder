@@ -26,6 +26,7 @@ def soldier(path,file,format):
             new_file1 = f"{index}{format}"
             os.renames(old=file1,new=new_file1)
 
-
-soldier("path://","file name","format_file")
+if __name__ =='__main__':
+    
+    soldier("path://","file name","format_file")
 
